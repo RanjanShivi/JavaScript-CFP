@@ -28,8 +28,10 @@ var spread_operator;
 var arr1 = [0, 1, 2];
 var arr2 = [3, 4, 5];
 var arr3 = [...arr1, ...arr2];// Append all elements in arr2 after arr1 and return
+console.log(arr3);
 //Equate to
 var arr4 = arr1.concat(arr2);
+console.log(arr4);
 
 //clone object
 var obj1 = { foo: 'bar', x: 42 };
